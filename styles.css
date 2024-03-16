@@ -1,0 +1,82 @@
+body {
+    background-image: url(images/background_image.png);
+    color: white;
+}
+
+main {
+    padding: 5%;
+}
+
+/* Navbar */
+#mainNavbar {
+    padding: 2%;
+}
+
+.toggler-img {
+    width: 30px;
+    height: 33px;
+}
+
+.navbar-brand img {
+    width: 322px;
+    height: 173px;
+}
+
+.nav-items {
+    width: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+/* heading */
+.pixel-heading {
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+.pixel-heading h1 {
+    font-size: 5rem;
+}
+
+.pixel-heading p {
+    font-size: 1.5rem;
+}
+
+/* about */
+.about-pixel {
+    font-size: 1.2rem;
+    margin: 100px 0px;
+}
+
+.about-pixel h2 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Events */
+.events h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.images {
+    padding: 5% 5%;
+}
+
+
+/* footer */
+.copyright {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:576px) {
+    .navbar-brand img {
+        width: 150px;
+        height: 75px;
+    }
+}
